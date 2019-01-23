@@ -49,3 +49,16 @@ options 参数
 
 styles 参数
 > * 例: { background: 'red' } 可自行修改indicator样式
+
+```javascript
+this.$indic.hidden()  //关闭indicator 弹窗
+```
+## 参考
+```javascript
+this.$indic.show()  // 默认显示 spinner动画  加载中... 文字 不自动关闭
+this.$indic.show('loading...')   // 显示文字为loading...  默认显示 spinner动画 不自动关闭
+this.$indic.show({text: 'loading', autoClose: 2000})  // 显示文字 loading... 默认显示 spinner动画 2s后关闭
+this.$indic.show({text: 'loading'}, {background: 'red'})  // 修改背景颜色为红色
+this.$indic.show({type: 'bounce'})  //  修改 动画为 bounce
+this.$indic.show({type: 'none'})  //  不显示 动画  文字默认显示 加载中...
+```
