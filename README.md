@@ -42,6 +42,7 @@ options 参数
 > * text 显示的文字消息
 > * autoClose 自动关闭的时间  单位 毫秒
 > * type 显示loading动画 默认: spinner 其他选项 effect bounce
+
 ![spinner](http://www.chenshujin.cn/blog-resources/vueIndicator/spinner.gif)
 ![effect](http://www.chenshujin.cn/blog-resources/vueIndicator/effect.gif)
 ![bounce](http://www.chenshujin.cn/blog-resources/vueIndicator/bounce.gif)
