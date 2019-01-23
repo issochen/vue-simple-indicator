@@ -1,9 +1,9 @@
 var path = require('path')
 var webpack = require('webpack')
+const isDev = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  // entry: './src/main.js',
-  entry: './src/plugins/indicator/index.js',
+  entry: isDev ? './src/main.js' : './src/plugins/indicator/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
