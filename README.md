@@ -46,3 +46,6 @@ options 参数
 ![spinner](http://www.chenshujin.cn/blog-resources/vueIndicator/spinner.gif)
 ![effect](http://www.chenshujin.cn/blog-resources/vueIndicator/effect.gif)
 ![bounce](http://www.chenshujin.cn/blog-resources/vueIndicator/bounce.gif)
+
+styles 参数
+> * 例: { background: 'red' } 可自行修改indicator样式
